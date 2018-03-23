@@ -1,0 +1,62 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  background: #04597a ;
+}
+#input {
+   padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  /* width: 165px; */
+}
+#add {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+
+.item {
+ /* border-style: solid;*/
+  padding:10px;
+  
+   /* margin: 10px;  */
+}
+
+#itemList div .close {
+  float: right;
+  
+}
+#itemList div  .done {
+  background-color: #5cb85c;
+  height: 2em;
+  width: 2em;
+  border-radius: 1em;
+  color: white;
+  margin-right: 10px;
+}
+
+#itemList :nth-child(odd) {
+  background:#099ad3;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#itemList :nth-child(even) {
+  background:#099ad3;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.doneTask {
+  text-decoration: line-through;
+}
+
+.itemDone {
+ /* border-style: solid;*/
+  padding:10px;
+  text-decoration: line-through;
+   /* margin: 10px;  */
+}
